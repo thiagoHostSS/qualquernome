@@ -9,28 +9,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
-header {
-    background-color: #3f3f3f;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    align-items: center;         
-    justify-content: space-between; 
-    padding: 0 30px;
-}
-
-
 .Logo {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 
 
 .sitenome {
     color: #ffffff;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 46px;
+    
+.work-sans uniquifier {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
     text-align: center;
 }
 
@@ -104,13 +98,12 @@ footer {
 .produto img {
     width: 150px;
     height: 150px;
-    object-fit: cover;             /
-    border-radius: 8px;
+    object-fit: cover;                
     margin-right: 10px;
 }
 
 .info {
-    flex: 1;                     
+    flex: 1px;                     
     display: flex;
     flex-direction: column;        
     justify-content: space-between;
@@ -132,3 +125,69 @@ footer {
     transition: 0.3s;
 }
 
+ form {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #770303a2;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        }
+.inscricao{
+    text-align: center;
+}
+
+label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+        
+        button {
+            width: 100%;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+
+.button1 {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+   padding: 20px;
+   font-size: 15px;
+}

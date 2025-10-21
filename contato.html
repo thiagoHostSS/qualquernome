@@ -5,8 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rede S</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cabeçalho.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Irish+Grover&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+     <header>
+        <img class="Logo" src="Design sem nome (11).png" alt="logo">
+        
+        <h1 class="sitenome">Rede S</h1>
+
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="produtos"><a href="produtos.html">Produtos</a></li>
+                <li class="contato"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="inscricao">Reclame Aqui</h1>
+        <div class="formulario">
+        <form>
+           <label for ="Nome" type="text" id="Nome">Nome</label>
+           <input required type="text" id="Nome" name="Nome" placeholder="Digite teu nome"><br>
+           <label for="Idade" type="text" id="Idade">Idade</label>
+           <input type="number" id="Idade" name="Idade" placeholder="Digite teu Idade" min="0" max="120"><br>
+            <label for=" email" type="email" id="email">Email 
+            <input required type="email" id="email" name="email" placeholder="Digite teu email"></label><br>
+            <label for ="produto" type="text" id="produto">Produto</label>
+            <input required type="text" id="produto" name="produto" placeholder="Digite seu produto"><br>
+            <label for="mensagem" type="text" id="mensagem">Mensagem</label>
+            <input required type="text" id="mensagem" name="mensagem" placeholder="Digite sua reclamação"><br>
+            <button type="submit" value="Enviar">Enviar</button>
+        </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; Rede S - Rua maria madalena santos, 123 - Centro, RedesSGames.com. Todos os direitos reservados 2025
+</p>
+    </footer>
 </body>
 </html>
